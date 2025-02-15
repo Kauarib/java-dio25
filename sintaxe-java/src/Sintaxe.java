@@ -1,7 +1,7 @@
 public class Sintaxe {
     public static void main(String[] args) {
-        // Tipos primitivos
-       /*   
+        // Varáveis
+       /*   Tipos primitivos
             byte b = 1;
             short s = 2;
             int i = 3;
