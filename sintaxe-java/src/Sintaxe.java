@@ -158,6 +158,10 @@ public class Sintaxe {
          * 
 
          */
+        /*terminais e argumentos
+         * terminal é um programa que permite interagir com o sistema operacional
+         * para executar um programa java é necessário utilizar o terminal
+         */
 
     }
 }
