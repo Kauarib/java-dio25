@@ -121,6 +121,43 @@ public class Sintaxe {
          * this
          * void
         */
+        /*java doc
+         * javadoc é uma ferramenta que gera documentação a partir de comentários no código fonte
+         * para gerar a documentação é necessário utilizar o comando javadoc seguido do nome do arquivo
+         * exemplo: javadoc Sintaxe.java
+         * a documentação é gerada em um arquivo HTML
+         * a documentação é gerada a partir de comentários que começam com /** e terminam com /
+         * os comentários podem conter tags que são utilizadas para formatar a documentação
+         * as tags são precedidas por @
+         * as tags mais comuns são:
+         * @param: descreve um parâmetro de um método
+         * @return: descreve o valor de retorno de um método
+         * @throws: descreve uma exceção lançada por um método
+         * @see: cria um link para outra classe ou método
+         * @since: descreve a versão em que o método foi introduzido
+         * @version: descreve a versão do método
+         * @author: descreve o autor do método
+         * comentários javadoc são utilizados para documentar classes, métodos e variáveis
+         * os comentários javadoc são colocados antes da declaração da classe, método ou variável
+         * exemplo: 
+         * /**
+         * * Esta classe representa um carro. 
+         * public class Carro {
+         * 
+         * /**
+         * * Este método liga o carro.
+         * * @param chave a chave do carro
+         * * @return true se o carro foi ligado com sucesso, false caso contrário
+         * public boolean ligar(String chave) {
+         * if (chave.equals("1234")) {
+         * return true;
+         * 
+         * } else {
+         * 
+         *  return false;
+         * 
+
+         */
 
     }
 }
