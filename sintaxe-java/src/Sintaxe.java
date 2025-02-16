@@ -33,6 +33,29 @@ public class Sintaxe {
             variáveis de classe: são declaradas com o modificador static e podem ser acessadas por todos os métodos da classe.
 
         */
+        /* Operadores
+            Aritméticos: +, -, *, /, %
+            Relacionais: ==, !=, >, <, >=, <=
+            Lógicos: &&, ||, !
+            Bitwise: &, |, ^, ~, <<, >>
+            Ternário: ?:
+            de atribuição: =, +=, -=, *=, /=, %=
+            de incremento e decremento: ++, --
+            booleanos: false, true
+            New: cria uma nova instância de uma classe
+            instanceof: verifica se um objeto é uma instância de uma classe
+            unarios são aqueles que operam em um único operando podem ser prefixados ou posfixados são eles: +, -, ++, --, !, ~
+            binários são aqueles que operam em dois operandos são eles: +, -, *, /, %, <, >, <=, >=, ==, !=, &&, ||, &, |, ^, <<, >>, >>>
+            incremento e decremento são operadores unários que incrementam ou decrementam o valor de uma variável em 1
+            operadores de atribuição são operadores binários que atribuem um valor a uma variável
+            operadores de comparação são operadores binários que comparam dois valores e retornam um valor booleano exemplo: ==, !=, <, >, <=, >=
+            ternário é um operador que recebe três operandos e retorna um valor booleano exemplo: ?, :
+            ex int a,b;
+            a=10;
+            b=11;
+            string resultado = a == b ? "a é igual a b" : "a é diferente de b";
+            System.out.println(resultado);
+        */
         /*palavras reservadas
          * abstract
          * assert
