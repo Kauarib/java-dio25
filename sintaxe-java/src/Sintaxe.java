@@ -11,7 +11,7 @@ public class Sintaxe {
             char c = 'a';
             boolean bool = true;
 
-        // Tipos de referência
+            // Tipos de referência
             String str = "Hello, World!";
             Integer integer = 7;
             Double doub = 8.0;
@@ -66,10 +66,10 @@ public class Sintaxe {
          * native
          * new
          * package
-         * private
-         * protected
-         * public
-         * return
+         * private 
+         * protected 
+         * public 
+         * return 
          * short 
          * static
          * strictfp
