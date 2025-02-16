@@ -57,61 +57,70 @@ public class Sintaxe {
             System.out.println(resultado);
         */
         /*palavras reservadas
+         * Modificadores de acesso:
+         * private 
+         * protected 
+         * public 
+
+         * Modificadores de classe, variáveis ou métodos:
          * abstract
-         * assert
-         * boolean
+         * final
+         * static
+         * strictfp
+
+         * Controle de fluxo dentro de um bloco de código:
          * break
-         * byte
          * case
-         * catch
-         * char
-         * class
-         * const
          * continue
          * default
          * do
-         * double
          * else
+         * for
+         * if
+         * return 
+         * switch
+         * while
+
+         * Tratamento de exceções:
+         * assert
+         * catch
+         * finally
+         * throw
+         * throws
+         * try
+
+         * Modificadores de variáveis:
+         * const
+         * transient
+         * volatile
+
+         * Modificadores de métodos:
+         * native
+         * synchronized
+
+         * Outros:
+         * boolean
+         * byte
+         * char
+         * class
+         * double
          * enum
          * extends
-         * final
-         * finally
          * float
-         * for
          * goto
-         * if
          * implements
          * import
          * instanceof
          * int
          * interface
          * long
-         * native
          * new
          * package
-         * private 
-         * protected 
-         * public 
-         * return 
-         * short 
-         * static
-         * strictfp
+         * short
          * super
-         * switch
-         * synchronized
          * this
-         * throw
-         * throws
-         * transient
-         * try
          * void
-         * volatile
-         * while
-    
         */
-
-
-
 
     }
 }
