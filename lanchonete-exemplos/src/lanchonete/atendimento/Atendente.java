@@ -1,20 +1,31 @@
 package lanchonete.atendimento;
 
+import lanchonete.atendimento.cozinha.Cozinheiro;
+
 public class Atendente {
  public void anotarPedido(){
-    System.out.println("Anotando o pedido...");
+      System.out.println("Anotando o pedido...");
  }
- public void pegarPedidoNaCozinha(){
-    System.out.println("Pegando o pedido na cozinha...");
+  Cozinheiro cozinheiro = new Cozinheiro();
+ private void pegarPedidoNaCozinha(){
+      System.out.println("Pegando o pedido na cozinha...");
+      cozinheiro.itemPronto();
+      cozinheiro.bebidaPronta();
+      cozinheiro.comboPronto();
  }
  public void entregarPedido(){
-    System.out.println("Entregando o pedido...");
+      pegarPedidoNaCozinha();
+      pegarPedidoNoBalcao();
+      System.out.println("Entregando o pedido...");
  }
  public void receberPagamento(){
-    System.out.println("Recebendo o pagamento...");
+      System.out.println("Recebendo o pagamento...");
  }
- public void pegarPedidoNoBalcao(){
-    System.out.println("Pegando o pedido no balcão...");
+ private void pegarPedidoNoBalcao(){
+      System.out.println("Pegando o pedido no balcão...");
+      cozinheiro.adicionarComboNoBalcao();
+      cozinheiro.adicionarItemNoBalcao();
+      cozinheiro.adicionarBebidaNoBalcao();
  }
 
 }

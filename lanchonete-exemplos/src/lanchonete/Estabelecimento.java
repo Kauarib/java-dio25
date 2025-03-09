@@ -14,13 +14,14 @@ public class Estabelecimento {
         cozinheiro.adicionarItemNoBalcao();
         cozinheiro.adicionarBebidaNoBalcao();
         cozinheiro.adicionarComboNoBalcao();
-        cozinheiro.pedidoPronto();
+        cozinheiro.itemPronto();
+        cozinheiro.bebidaPronta();
+        cozinheiro.comboPronto();
 
         Atendente atendente = new Atendente();
 
-        //Ações privadas do atendente com a cozinha
-        atendente.pegarPedidoNaCozinha();
-        atendente.pegarPedidoNoBalcao();
+       
+        
         
         //Ações do atendente com o cliente
         atendente.anotarPedido();

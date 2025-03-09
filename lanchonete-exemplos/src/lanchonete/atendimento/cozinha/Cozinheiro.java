@@ -22,8 +22,23 @@ public class Cozinheiro {
       prepararItem();
       prepararBebida();
    }
-   public void pedidoPronto(){
+   public void itemPronto(){
       System.out.println("Pedido pronto para ser entregue...");
+      
+      prepararItem();
+      
+   }
+   public void bebidaPronta(){
+      System.out.println("Bebida pronta para ser entregue...");
+      
+      prepararBebida();
+      
+   }
+   public void comboPronto(){
+      System.out.println("Combo pronto para ser entregue...");
+      
+      prepararCombo();
+      
    }
    void pedirIngredienteAoAlmoxarife(){
       System.out.println("Pedindo o item ao almoxarife...");
